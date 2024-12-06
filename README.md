@@ -18,7 +18,7 @@ The goal of this project is to predict the probability that people receive two t
 
 All the information is on the following site:<br>
 https://www.drivendata.org/competitions/66/flu-shot-learning/page/210/
-<br>
+<br><br>
 
 
 
@@ -28,7 +28,7 @@ There are two target variables:
 - **seasonal_vaccine** - Whether respondent received seasonal flu vaccine.
 
 Both are binary variables: 0 = No; 1 = Yes.
-<br>
+<br><br>
 
 
 
@@ -112,3 +112,4 @@ List of features:
 - **employment_industry** - Type of industry respondent is employed in. Values are represented as short random character strings.
 
 - **employment_occupation** - Type of occupation of respondent. Values are represented as short random character strings.
+<br><br>
