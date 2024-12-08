@@ -1,4 +1,7 @@
-EN EDA HACER:
-- Modificar el mapeo y hacerlo manualmente.
-- Modificar igual el training test_set_features
-- Probar modelo de clasificación
+Dudas: ❓❓❓
+
+- ¿Las variables 'altamente' correlacionadas? Tenemos variables que son "dupliacadas" como opinion_h1n1_risk            opinion_seas_risk.
+
+- ¿Cómo dibujamos la curva ROC?
+
+- ¿Estaría bien la manera en la que entrenamos el modelo? Mirar si habría que hacerlo de la forma que hace sergio (uniendo los dos datasets y luego haciendo split o como lo he implementado yo)
