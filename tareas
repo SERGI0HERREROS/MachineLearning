@@ -5,3 +5,10 @@ Dudas: ❓❓❓
 - ¿Cómo dibujamos la curva ROC?
 
 - ¿Estaría bien la manera en la que entrenamos el modelo? Mirar si habría que hacerlo de la forma que hace sergio (uniendo los dos datasets y luego haciendo split o como lo he implementado yo)
+
+- Podemos meter modelos que no hemos dado??"?"??"?"
+
+
+- Enviar Roc Curve cuando saquemos resultados al profe por correo.
+
+soft-mask para redes neuronales
