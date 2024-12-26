@@ -1,0 +1,34 @@
+/ (Root Directory)                                      #
+│
+├── best_models/                                        #              
+│   ├── HistGradientBoosting.ipynb                      #
+│   ├── RandomForest_with_partition.ipynb               #
+│   └── Summary_Results.txt                             #
+│
+├── data/                                               #
+│   ├── gold/                                           #
+│   └── raw/                                            #
+│                                  
+├── EDAs/                                               #
+│   ├── Exploratory data analysis_changes.ipynb         #
+│   └── Exploratory data analysis.ipynb                 #
+│
+├── other_models/                                       #
+│   ├── Decision Tree imputation.ipynb                  #
+│   ├── Decision Tree.ipynb                             #
+│   ├── KNN(Estimators).ipynb                           #
+│   ├── LogisticRegression.ipynb                        #
+│   └── RandomForest.ipynb                              #
+│
+├── profiling/                                          #
+│   └── report.html                                     #
+│
+├── results/
+│   ├──pred_decision_tree_impute_output.csv             #
+│   ├──pred_decision_tree_output.csv                    #
+│   ├──pred_hist_gradient_boosting.csv                  #
+│   ├──pred_KNN_output.csv                              #
+│   ├──pred_logistic_regression_output.csv              #
+│   └──pred_random_forest_output.csv                    #
+│         
+└── README.md                                           # Project description
