@@ -4,12 +4,18 @@
    We have applied several models throughout the work, but we want to highlight two:
       - HistGradientBoosting.
       - RandomForest_with_partition.
+   
+         - The interpretation and justificaction of these models are found in their corresponding notebooks (./best_models/x)
 
 
    ----------------------------
 -> │   HistGradientBoosting   │ 
    ----------------------------
       This model has given us the best result for the competition, with an accuracy of 0.8592.
+      - The results obtained for AUC are achieved by not eliminating the columns with many missing values. 
+      - This is showed in the Eda.ipynb (./EDAs). 
+      - This model is known after trying different proofs with different classifiers.
+      - More info. about this model in its correspnding notebook (./best_models/HistGradientBoosting.ipynb).
 
 
    -----------------------------------
@@ -25,7 +31,6 @@
 
 
 
-In conclusion, there is no "correct" EDA; it depends on the data, its distribution, and the objective of the analysis. The EDA strategy should be adapted to the specific characteristics of the dataset and the project's purpose.
-
+In conclusion, there is no "correct" EDA for this task; it depends on the data, its distribution, and the objective of the analysis. The EDA strategy should be adapted to the specific characteristics of the dataset and the project's purpose. In this case, the project requires obtaining on the one hand the best AUC Score, which is obtained not eliminating columns with missing values. On the other hand, there is an objective of elaborating a correct EDA to get models more consistent (Eda_changes.ipynb). However, eliminating these columns have not produced better results in the modeling.
 
 (For more information, see notebooks)
