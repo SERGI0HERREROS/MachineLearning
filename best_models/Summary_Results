@@ -1,17 +1,31 @@
 -------------------------------------------------------------------------------
 │                               Summary Results                               │  
 -------------------------------------------------------------------------------
-    Breve resumen de lo que hemos hecho
+   We have applied several models throughout the work, but we want to highlight two:
+      - HistGradientBoosting.
+      - RandomForest_with_partition.
 
 
    ----------------------------
 -> │   HistGradientBoosting   │ 
    ----------------------------
-        Texto aquí
-
+      This model has given us the best result for the competition, with an accuracy of 0.8592.
 
 
    -----------------------------------
 -> │   RandomForest_with_partition   │
    -----------------------------------
-        Texto aquí
+      This model did not achieve the best result in the competition (0.8477). 
+      Why do we mention it?
+      
+      There are two EDAs, the only difference is that one eliminates all columns with the most missing values, while the other does not.
+      In this model, we used a "correct" EDA, eliminating the columns with the most missing values.
+
+      We could think that by eliminating columns that only add noise and have many missing values, we would improve the model, but we see that this is not the case.
+
+
+
+In conclusion, there is no "correct" EDA; it depends on the data, its distribution, and the objective of the analysis. The EDA strategy should be adapted to the specific characteristics of the dataset and the project's purpose.
+
+
+(For more information, see notebooks)
