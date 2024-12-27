@@ -5,7 +5,7 @@
       - HistGradientBoosting.
       - RandomForest_with_partition.
    
-         - The interpretation and justificaction of these models are found in their corresponding notebooks (./best_models/x)
+         - The interpretation and justificaction of these models are found in their corresponding notebooks (./x.ipynb)
 
 
    ----------------------------
@@ -13,9 +13,9 @@
    ----------------------------
       This model has given us the best result for the competition, with an accuracy of 0.8592.
       - The results obtained for AUC are achieved by not eliminating the columns with many missing values. 
-      - This is showed in the Eda.ipynb (./EDAs). 
+      - This is showed in the Eda.ipynb (../EDAs). 
       - This model is known after trying different proofs with different classifiers.
-      - More info. about this model in its correspnding notebook (./best_models/HistGradientBoosting.ipynb).
+      - More info. about this model in its correspnding notebook (./HistGradientBoosting.ipynb).
 
 
    -----------------------------------
